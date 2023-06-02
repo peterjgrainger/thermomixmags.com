@@ -1,0 +1,7 @@
+@import-glob '../styles/base.css';
+@import-glob '../styles/variables.css';
+@import-glob '../styles/buttons.css';
+
+.center {
+  text-align: center;
+}
