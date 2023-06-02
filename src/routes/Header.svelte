@@ -29,7 +29,7 @@
 
   @media(min-width: 750px) {
     h2 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
   }
   @media(max-width: 750px) {
@@ -41,7 +41,7 @@
 
   @media(min-width: 750px) {
     h3 {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
   }
   @media(max-width: 750px) {

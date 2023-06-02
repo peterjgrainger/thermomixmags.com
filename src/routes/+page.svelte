@@ -24,19 +24,22 @@
 <style>
   img {
     width: 100%;
-    object-fit: cover;
-    
+    max-width: 1200px;
+    object-fit:cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
   }
 
   @media(max-width: 750px) {
     img {
-      height: 300px;
+      height: 400px;
     }
   }
 
   @media(min-width: 750px) {
     img {
-      height: 600px;
+      height:700px;
     }
   }
 
