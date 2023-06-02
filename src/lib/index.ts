@@ -1,3 +1,3 @@
-import tiktok from './Icon.svelte'
+import tiktok from './Icon.svelte';
 
-export {tiktok}
+export { tiktok };
