@@ -7,7 +7,7 @@
     <div class = "header-container">
         <div>
           <h1> thermomix mags </h1>
-          <h3> Independant Thermomix Consultant </h3>
+          <h3> Independent Thermomix Consultant </h3>
         </div>
     </div>
 </header>
