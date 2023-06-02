@@ -6,7 +6,7 @@
 <header>
     <div class = "header-container">
         <div>
-          <h2> thermomix mags </h2>
+          <h1> thermomix mags </h1>
           <h3> Independant Thermomix Consultant </h3>
         </div>
     </div>
@@ -27,14 +27,14 @@
 		margin: 0 auto;
 	}
 
-  @media(min-width: 750px) {
-    h2 {
-      font-size: 3.5rem;
+  @media(min-width: 850px) {
+    h1 {
+      font-size: 6rem;
     }
   }
-  @media(max-width: 750px) {
-    h2 {
-      font-size: 1.5rem;
+  @media(max-width: 850px) {
+    h1 {
+      font-size: 3rem;
       display: block;
     }
   }
@@ -68,7 +68,7 @@
     
   }
 
-  h2 {
+  h1 {
     margin-bottom: 0rem;
     text-align: center;
     color: var(--green)

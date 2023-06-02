@@ -1,21 +1,45 @@
+<script>
+  import Icon from '$lib/Icon.svelte';
+</script>
+
 <div>
   <img src="https://res.cloudinary.com/di4veouyn/image/upload/v1685684827/mags.jpg">
   <div class="hero-tiles-container">
+    
     <div class="hero-image">
-      <h2>
-        📆 
-      </h2>
-      <h3>
-        Book a demo
-      </h3>
+      <a href="https://calendly.com/thermomixmags/demo">
+        <h1>
+          📆 
+        </h1>
+        <h2>
+          Book a demo
+        </h2>
+      </a>
     </div>
     <div class="hero-image">
-      <h2>
-        🤙
-      </h2>
-      <h3>
-        Contact for more information
-      </h3>
+      <h3>Get in touch</h3>
+      <div class="social-container">
+        <div class="social-item">
+          <a href="https://www.tiktok.com/@thermomixmags">
+            <Icon name="tiktok" />
+          </a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100092326532900">
+            <Icon name="facebook" />
+          </a>
+        </div>
+        <div class="social-item">
+          <a href="mailto:hi@thermomixmags.com">
+            <Icon name="email" />
+          </a>
+        </div>
+        
+      </div>
+        
+        
+        
+        
     </div>
   </div>
   
@@ -31,15 +55,21 @@
     display: block;    
   }
 
-  @media(max-width: 750px) {
+  @media(max-width: 850px) {
     img {
       height: 400px;
     }
+    .social-item {
+      margin: 1rem
+    }
   }
 
-  @media(min-width: 750px) {
+  @media(min-width: 850px) {
     img {
       height:700px;
+    }
+    .social-item {
+      margin: 3rem
     }
   }
 
@@ -66,15 +96,24 @@
     margin-left: auto;
     justify-content: space-evenly;
     width: 100%;
+    text-align: center;
 
   }
 
-  h2 {
+  .social-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    width: 100%;
     text-align: center;
   }
 
-  h3 {
-    text-align: center;
+  .social-item {
+    flex: 1;
   }
 
 </style>
