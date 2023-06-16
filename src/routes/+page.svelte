@@ -73,12 +73,12 @@
 			height: 700px;
 		}
 		.social-item {
-			margin: 1rem;
+			margin: 1.5rem;
 		}
 
 		.hero-tiles-container {
-			padding-right: 120px;
-			padding-left: 120px;
+			padding-right: 80px;
+			padding-left: 80px;
 		}
 	}
 
@@ -92,7 +92,7 @@
 		bottom: 120px;
 		border-radius: 18px;
 		border: 1px solid var(--black);
-		margin: 10px;
+		margin: 30px;
 		transition: transform 0.5s, box-shadow 0.5s ease-in-out;
 	}
 
@@ -114,6 +114,18 @@
 		justify-content: space-evenly;
 		width: 100%;
 		text-align: center;
+	}
+
+	.hero-image h1 {
+		margin: 5px;
+	}
+
+	.hero-image h2 {
+		margin: 0px;
+	}
+
+	.hero-image h3 {
+		margin: 0px;
 	}
 
 	.social-item {
