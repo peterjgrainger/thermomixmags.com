@@ -2,8 +2,7 @@
 	<div class="header-container">
 		<div>
 			<h1>thermomix mags</h1>
-			<h3>Independent Thermomix Advisor</h3>
-			<p>Gosforth, Newcastle-upon-tyne</p>
+			<h2>Independent Thermomix Advisor</h2>
 		</div>
 	</div>
 </header>
@@ -27,11 +26,11 @@
 		h1 {
 			font-size: 6rem;
 		}
-		h3 {
-			font-size: 3rem;
+		h2 {
+			font-size: 2.4rem;
 		}
 
-		p {
+		h3 {
 			font-size: 2.5rem;
 			display: block;
 		}
@@ -42,17 +41,18 @@
 			display: block;
 		}
 
-		p {
+		h2 {
 			font-size: 1rem;
 			display: block;
 		}
+
 		h3 {
-			font-size: 1rem;
+			font-size: 0.8rem;
 			display: block;
 		}
 	}
 
-	h3 {
+	h2 {
 		margin-top: 0rem;
 		text-align: center;
 		margin-bottom: 0rem;
@@ -65,7 +65,7 @@
 		color: var(--green);
 	}
 
-	p {
+	h3 {
 		margin-top: 0rem;
 		margin-bottom: 0rem;
 		text-align: center;

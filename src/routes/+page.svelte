@@ -35,16 +35,27 @@
 			</div>
 		</div>
 	</div>
+	<div class="blurb">
+		<p>
+			Hi! My name is Mags, I'm based in Newcastle upon Tyne and I'm a thermomix advisor. 
+			I can help you decide if thermomix is right for you.
+		</p>
+	</div>
 </div>
 
 <style>
 	img {
 		width: 100%;
-		max-width: 1200px;
 		object-fit: cover;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+	}
+
+	.blurb {
+		margin-top: -80px;
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 
 	@media (max-width: 850px) {
@@ -54,6 +65,7 @@
 		.social-item {
 			margin: 1rem;
 		}
+		
 	}
 
 	@media (min-width: 850px) {
@@ -61,14 +73,19 @@
 			height: 700px;
 		}
 		.social-item {
-			margin: 3rem;
+			margin: 1rem;
+		}
+
+		.hero-tiles-container {
+			padding-right: 120px;
+			padding-left: 120px;
 		}
 	}
 
 	.hero-image {
 		flex: 1;
 		min-height: 160px;
-		min-width: 200px;
+		min-width: 230px;
 		background-color: var(--white);
 		position: relative;
 		padding: 10px;
@@ -82,8 +99,6 @@
 	.hero-tiles-container {
 		display: flex;
 		flex-wrap: wrap;
-		padding-right: 15px;
-		padding-left: 15px;
 		margin-right: auto;
 		margin-left: auto;
 		justify-content: space-evenly;
@@ -94,8 +109,6 @@
 	.social-container {
 		display: flex;
 		flex-wrap: wrap;
-		padding-right: 15px;
-		padding-left: 15px;
 		margin-right: auto;
 		margin-left: auto;
 		justify-content: space-evenly;
